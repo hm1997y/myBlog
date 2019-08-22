@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的个人博客</title>
+    <link rel="stylesheet" href="./css/geo.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <script src="js/axios.js"></script>
+</head>
+<body>
+<div class="site">我的个人博客's SiteMap</div>
+<div class="link">
+    <span><a href="#">我的个人博客 </a></span>
+    <span>》》</span>
+    <span><a href="#">站点地图</a></span>
+</div>
+<div  id="blog_list">
+    <div class="list">
+    <h3>最新文章</h3>
+    <ul>
+        <li v-for="blog in blogList"><a v-bind:href="blog.link">{{blog.title}}</a></li>
+    </ul>
+</div>
+    <div class="list">
+        <h3>分类目录</h3>
+        <ul>
+            <li><a href="#">乱码表，看懂常见编码乱码</a></li>
+            <li><a href="#">乱码表，看懂常见编码乱码</a></li>
+            <li><a href="#">乱码表，看懂常见编码乱码</a></li>
+            <li><a href="#">乱码表，看懂常见编码乱码</a></li>
+            <li><a href="#">乱码表，看懂常见编码乱码</a></li>
+            <li><a href="#">乱码表，看懂常见编码乱码</a></li>
+        </ul>
+    </div>
+    <div class="list">
+        <h3>页面</h3>
+        <ul>
+            <li><a href="#">乱码表，看懂常见编码乱码</a></li>
+            <li><a href="#">乱码表，看懂常见编码乱码</a></li>
+            <li><a href="#">乱码表，看懂常见编码乱码</a></li>
+            <li><a href="#">乱码表，看懂常见编码乱码</a></li>
+            <li><a href="#">乱码表，看懂常见编码乱码</a></li>
+            <li><a href="#">乱码表，看懂常见编码乱码</a></li>
+        </ul>
+    </div>
+    <div class="link">
+        <span>查看博客首页: <a href="#">我的个人博客 </a></span>
+    </div></div>
+
+<script src="js/geo.js"></script>
+</body>
+</html>

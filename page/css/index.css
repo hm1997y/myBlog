@@ -1,0 +1,51 @@
+.every_day{
+    width:96%;
+    background-color: #fff;
+    text-align: left;
+    padding:10px 15px;
+    border-radius: 5px;
+    box-shadow: 3px 4px 3px #888;
+    font-size:12px;
+}
+.every_day_content{
+    padding:5px 0;
+    font-size:16px;
+}
+.article_list{
+    width:100%;
+    margin-top:15px;
+}
+.article{
+    width:100%;
+    display:inline-block;
+    overflow: hidden;
+    border:1px solid #888888;
+    box-shadow: 1px 2px 2px #888;
+    border-radius: 5px;
+    margin-top:15px;
+    text-align: left;
+}
+.article_title{
+    display:inline-block;
+    font-size:20px;
+    color:#13102b;
+    text-decoration: none;
+    padding:0 20px 10px 10px;
+    cursor: pointer;
+}
+.article_title:hover{
+    color:#337ab7;
+}
+.article_content{
+    font-size:14px;
+    padding:0 20px 20px 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+
+}
+.article_foot{
+    background-color:#191818;
+    color:#fff;
+    padding:5px 20px 5px 10px;
+}

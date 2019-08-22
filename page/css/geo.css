@@ -1,0 +1,31 @@
+.site{
+    text-align: center;
+    font-weight: bold;
+    padding:20px 10px;
+    color:#191818;
+    font-size:20px;
+}
+.link{
+    width:95%;
+    border:1px solid #eee;
+    margin:10px auto;
+    padding:10px 15px;
+    font-size:14px;
+}
+.link > span > a{
+    color:#191818;
+}
+.list{
+    width:95%;
+    border:1px solid #eee;
+    margin:0 auto;
+    padding:10px 15px;
+    font-size:14px;
+    margin-top:20px;
+}
+.list > ul > li{
+    padding:5px 10px;
+}
+.list > ul > li > a{
+    color:#191818;
+}
